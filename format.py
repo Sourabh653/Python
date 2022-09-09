@@ -1,0 +1,6 @@
+txt1 = "Welcome to {fname} {lname}".format(fname = "Python", lname = "BootCamp")
+txt2 = "Good bye to {} {}".format("Python", "Bootcamp")
+txt3 = "{1} {0}".format("Bye", "Ok")
+print(txt1)
+print(txt2)
+print(txt3)

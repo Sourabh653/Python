@@ -1,0 +1,7 @@
+f = open("new.txt")
+print(f.tell())
+print(f.readline())
+print(f.seek(12))
+print(f.tell())
+print(f.readline())
+f.close()
